@@ -1,13 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Hello World!</title>
-<link rel="stylesheet" href="bluestyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Academy Portfolio Learning</title>
 </head>
 <body>
+    <header>
+        <h1>Welcome to my PLP Academy Portfolio Website</h1>
+    </header>
+    <div class="container">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am Hameed Yusuf, a data analyst transitioning into software development. I am passionate about learning and building new skills.</p>
+        </div>
+        <div class="image">
+            <img src="Hameedyusuf.jpg" alt="About Me Image">
+        </div>
+    </div>
+    <section>
+        <h2>Educational History</h2>
+        <table>
+            <tr>
+                <th>School Name</th>
+                <th>Year Attended (Start-End)</th>
+                <th>Certification Obtained</th>
+                <th>Course Studied</th>
+            </tr>
+            <tr>
+                <td>Amma International</td>
+                <td>1998-2006</td>
+                <td>Primary School Leaving Certificate</td>
+                <td>-----------------------</td>
+            </tr>
+            <tr>
+                <td>Nigerian Turkish International Colleges</td>
+                <td>2010-2013</td>
+                <td>Secondary School Leaving Certificate</td>
+                <td>-----------------------</td>
+            </tr>
+            <tr>
+                <td>Northwest University</td>
+                <td>2014-2018</td>
+                <td>Bachelor's Degree</td>
+                <td>Bsc Economics</td>
+            </tr>
+            <tr>
+                <td>Corvinus University of Budapest</td>
+                <td>2020-2022</td>
+                <td>Master's Degree</td>
+                <td>Msc Economic Analysis</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-<h1>Hello world!</h1>
-<p>This is the first file in my new Git Repo.</p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
 </body>
 </html>
